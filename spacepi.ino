@@ -19,8 +19,6 @@ void loop() {
   readCompass(x, y, z); 
   readGps(lat, lng, alt, sat);
 
-  Serial.print("Название команды");
-  Serial.print(",");
   Serial.print(x);
   Serial.print(",");
   Serial.print(y); 
